@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.MobileAppiumUT.TestCase.AppiumBasics">
+      <class name="com.MobileAppiumUT.TestCase.OS">
         <methods>
-          <include name="WifiSettingsName"/>
           <include name="tearDown"/>
+          <include name="SendMsg"/>
           <include name="ConfigureAppium"/>
         </methods>
-      </class> <!-- com.MobileAppiumUT.TestCase.AppiumBasics -->
+      </class> <!-- com.MobileAppiumUT.TestCase.OS -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
