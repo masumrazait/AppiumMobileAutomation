@@ -5,6 +5,7 @@
     <classes>
       <class name="com.MobileAppiumUT.TestCase.BaseTest"/>
       <class name="com.MobileAppiumUT.TestCase.OS"/>
+      <class name="com.MobileAppiumUT.TestCase.LongPress"/>
       <class name="com.MobileAppiumUT.TestCase.Preference"/>
       <class name="com.MobileAppiumUT.TestCase.Animations"/>
     </classes>

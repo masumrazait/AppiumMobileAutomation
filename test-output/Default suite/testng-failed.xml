@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.MobileAppiumUT.TestCase.OS">
+      <class name="com.MobileAppiumUT.TestCase.LongPress">
         <methods>
           <include name="tearDown"/>
-          <include name="SendMsg"/>
+          <include name="longPressAction"/>
           <include name="ConfigureAppium"/>
         </methods>
-      </class> <!-- com.MobileAppiumUT.TestCase.OS -->
+      </class> <!-- com.MobileAppiumUT.TestCase.LongPress -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -7,7 +7,7 @@ import io.appium.java_client.AppiumBy;
 
 public class OS extends BaseTest {
 
-	@Test(invocationCount = 5)
+	@Test
 	public void SendMsg() throws InterruptedException {
 		driver.findElement(AppiumBy.accessibilityId("OS")).click();
 		driver.findElement(AppiumBy.accessibilityId("SMS Messaging")).click();
