@@ -3,6 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Appium-Automation(failed)">
     <classes>
+      <class name="com.MobileAppiumUT.TestCase.Animations">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Hide"/>
+          <include name="ConfigureAppium"/>
+        </methods>
+      </class> <!-- com.MobileAppiumUT.TestCase.Animations -->
       <class name="com.MobileAppiumUT.TestCase.OS">
         <methods>
           <include name="tearDown"/>
@@ -10,6 +17,20 @@
           <include name="ConfigureAppium"/>
         </methods>
       </class> <!-- com.MobileAppiumUT.TestCase.OS -->
+      <class name="com.MobileAppiumUT.TestCase.LongPress">
+        <methods>
+          <include name="longPressAction"/>
+          <include name="tearDown"/>
+          <include name="ConfigureAppium"/>
+        </methods>
+      </class> <!-- com.MobileAppiumUT.TestCase.LongPress -->
+      <class name="com.MobileAppiumUT.TestCase.Preference">
+        <methods>
+          <include name="Wifi"/>
+          <include name="tearDown"/>
+          <include name="ConfigureAppium"/>
+        </methods>
+      </class> <!-- com.MobileAppiumUT.TestCase.Preference -->
     </classes>
   </test> <!-- Appium-Automation(failed) -->
 </suite> <!-- Failed suite [Suite] -->

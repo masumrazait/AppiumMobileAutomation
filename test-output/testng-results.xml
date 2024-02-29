@@ -1,67 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-29T00:09:10 IST" name="Suite" finished-at="2024-02-29T00:10:48 IST" duration-ms="97925">
+  <suite started-at="2024-02-29T15:22:48 IST" name="Default suite" finished-at="2024-02-29T15:23:23 IST" duration-ms="35101">
     <groups>
     </groups>
-    <test started-at="2024-02-29T00:09:10 IST" name="Appium-Automation" finished-at="2024-02-29T00:10:48 IST" duration-ms="97925">
-      <class name="com.MobileAppiumUT.TestCase.OS">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:com.MobileAppiumUT.TestCase.OS@5ab956d7]" started-at="2024-02-29T00:09:10 IST" name="ConfigureAppium" finished-at="2024-02-29T00:09:22 IST" duration-ms="12373" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ConfigureAppium -->
-        <test-method signature="SendMsg()[pri:0, instance:com.MobileAppiumUT.TestCase.OS@5ab956d7]" started-at="2024-02-29T00:09:22 IST" name="SendMsg" finished-at="2024-02-29T00:09:37 IST" duration-ms="14746" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SendMsg -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MobileAppiumUT.TestCase.OS@5ab956d7]" started-at="2024-02-29T00:09:37 IST" name="tearDown" finished-at="2024-02-29T00:09:37 IST" duration-ms="404" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.MobileAppiumUT.TestCase.OS -->
+    <test started-at="2024-02-29T15:22:48 IST" name="Default test" finished-at="2024-02-29T15:23:23 IST" duration-ms="35101">
       <class name="com.MobileAppiumUT.TestCase.LongPress">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:com.MobileAppiumUT.TestCase.LongPress@3646a422]" started-at="2024-02-29T00:09:37 IST" name="ConfigureAppium" finished-at="2024-02-29T00:09:47 IST" duration-ms="9804" status="PASS">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:com.MobileAppiumUT.TestCase.LongPress@71ba6d4e]" started-at="2024-02-29T15:22:48 IST" name="ConfigureAppium" finished-at="2024-02-29T15:23:19 IST" duration-ms="31333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureAppium -->
-        <test-method signature="longPressAction()[pri:0, instance:com.MobileAppiumUT.TestCase.LongPress@3646a422]" started-at="2024-02-29T00:09:47 IST" name="longPressAction" finished-at="2024-02-29T00:09:53 IST" duration-ms="6027" status="PASS">
+        <test-method signature="longPressAction()[pri:0, instance:com.MobileAppiumUT.TestCase.LongPress@71ba6d4e]" started-at="2024-02-29T15:23:19 IST" name="longPressAction" finished-at="2024-02-29T15:23:21 IST" duration-ms="1948" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [8d0a65f6-bd85-48dd-baf8-ea2ddad0a38d, findElement {using=accessibility id, value=Expandable Lists}]
+Capabilities {appium:app: ./src//main//java//resource..., appium:appPackage: io.appium.android.apis, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: ./src//main//java//resource..., automationName: UIAutomator2, deviceName: masumphone, platformName: ANDROID}, appium:deviceApiLevel: 28, appium:deviceManufacturer: Google, appium:deviceModel: AOSP on IA Emulator, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 9, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 2211, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 8d0a65f6-bd85-48dd-baf8-ea2ddad0a38d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [8d0a65f6-bd85-48dd-baf8-ea2ddad0a38d, findElement {using=accessibility id, value=Expandable Lists}]
+Capabilities {appium:app: ./src//main//java//resource..., appium:appPackage: io.appium.android.apis, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: ./src//main//java//resource..., automationName: UIAutomator2, deviceName: masumphone, platformName: ANDROID}, appium:deviceApiLevel: 28, appium:deviceManufacturer: Google, appium:deviceModel: AOSP on IA Emulator, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 9, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 2211, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 8d0a65f6-bd85-48dd-baf8-ea2ddad0a38d
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:238)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at com.MobileAppiumUT.TestCase.LongPress.longPressAction(LongPress.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- longPressAction -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MobileAppiumUT.TestCase.LongPress@3646a422]" started-at="2024-02-29T00:09:53 IST" name="tearDown" finished-at="2024-02-29T00:09:54 IST" duration-ms="532" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MobileAppiumUT.TestCase.LongPress@71ba6d4e]" started-at="2024-02-29T15:23:21 IST" name="tearDown" finished-at="2024-02-29T15:23:23 IST" duration-ms="1723" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.MobileAppiumUT.TestCase.LongPress -->
-      <class name="com.MobileAppiumUT.TestCase.Animations">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:com.MobileAppiumUT.TestCase.Animations@3e27aa33]" started-at="2024-02-29T00:10:20 IST" name="ConfigureAppium" finished-at="2024-02-29T00:10:29 IST" duration-ms="9482" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ConfigureAppium -->
-        <test-method signature="Hide()[pri:0, instance:com.MobileAppiumUT.TestCase.Animations@3e27aa33]" started-at="2024-02-29T00:10:29 IST" name="Hide" finished-at="2024-02-29T00:10:47 IST" duration-ms="18239" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Hide -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MobileAppiumUT.TestCase.Animations@3e27aa33]" started-at="2024-02-29T00:10:47 IST" name="tearDown" finished-at="2024-02-29T00:10:48 IST" duration-ms="449" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.MobileAppiumUT.TestCase.Animations -->
-      <class name="com.MobileAppiumUT.TestCase.Preference">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:com.MobileAppiumUT.TestCase.Preference@750e2b97]" started-at="2024-02-29T00:09:54 IST" name="ConfigureAppium" finished-at="2024-02-29T00:10:04 IST" duration-ms="10493" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ConfigureAppium -->
-        <test-method signature="Wifi()[pri:0, instance:com.MobileAppiumUT.TestCase.Preference@750e2b97]" started-at="2024-02-29T00:10:04 IST" name="Wifi" finished-at="2024-02-29T00:10:19 IST" duration-ms="14772" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Wifi -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MobileAppiumUT.TestCase.Preference@750e2b97]" started-at="2024-02-29T00:10:19 IST" name="tearDown" finished-at="2024-02-29T00:10:20 IST" duration-ms="542" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.MobileAppiumUT.TestCase.Preference -->
-    </test> <!-- Appium-Automation -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
